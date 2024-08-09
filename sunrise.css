@@ -1,0 +1,72 @@
+body {
+  background-color: #be7942;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #fff;
+  margin: 30px;
+}
+.header {
+  font-family: "berlin sans fb";
+  display: inline;
+  position: relative;
+}
+.header .logo {
+  float: right;
+  padding: 20px;
+}
+.header .logo h1 {
+  color: #f2a83d;
+  margin: 0;
+}
+.header .logo p {
+  color: #f00;
+  margin: 0;
+  font-weight: bold;
+  float: right;
+}
+.header .menu {
+  float: left;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  transform: translateY(30%);
+}
+.header .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.header .menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.content img {
+  width: 100%;
+}
+.content .description {
+  padding: 0 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 20px;
+}
+.footer .footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.footer .footer-menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
