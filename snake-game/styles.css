@@ -1,0 +1,22 @@
+#game-area {
+  width: 96vw; /* Full width of the viewport */
+  height: 96vh; /* Full height of the viewport */
+  margin: 0 auto;
+}
+
+.snake {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.food {
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: absolute;
+}
